@@ -47,6 +47,17 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #1c92d2;
+  }
+}
+
 .home-callout {
   color: black;
   margin-top: -20px;
